@@ -1,0 +1,136 @@
+:root{
+
+    --primaryColor: #16a085;
+    --boxShadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --white: #ffffff;
+    --black: #000000;
+
+}
+
+.ruman_table_card{
+    background: var(--white);
+    padding: 30px;
+    box-shadow: var(--boxShadow);
+}
+table.ruman_table_items {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.ruman_table_inner{
+overflow-x: auto;
+}
+
+.dynamic_search_counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input.search_input {
+    border: 1px solid var(--black);
+    padding: 8px;
+}
+.ruman_pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+}
+.page-url {
+    position: relative;
+    display: block;
+    padding: 1rem 1.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid rgb(0 123 255 / 25%);
+}
+.modal-content {
+    background: #40e0d0!important;
+}
+
+.addBox {
+    background-color: #36b9cc;
+    padding: 25px 5px;
+    border-radius: 25px 75px 25px 75px;
+    border: none;
+}
+.save_feild button {
+    width: calc(100% / 2);
+    height: 46px;
+    font-weight: 600;
+}
+.action-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.action-form form{
+    margin-right: 10px;
+}
+.action-form form:first-child{
+    margin-right: 0;
+}
+.manage_items{
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 10%) !important;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.message_text{
+    color: Green;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.message_Text_error{
+    color: red;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.addBox {
+    background-color: #36b9cc;
+    padding: 25px 15px;
+    border-radius: 25px 75px 25px 75px;
+    border: none;
+
+}
+.form .details_books .title {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px dashed;
+    border-radius: 25px 75px 25px 75px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+}
+.form .details_books .feilds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+.form .details_books .feilds .form-group{
+    width: calc(100% / 2 - 15px);
+}
+.save_feild button {
+    width: calc(100% / 2);
+    height: 46px;
+    font-weight: 600;
+}
